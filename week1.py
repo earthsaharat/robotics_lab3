@@ -9,7 +9,7 @@ def alphabet_position(X):
 		elif 65 <= xInt and xInt <= 90: 
 			xInt = xInt-64
 			ans += str(xInt)+' '
-	return ans
+	return ans.strip()
 
 # print(alphabet_position("The sunset sets at twelve o'clock"))
 
