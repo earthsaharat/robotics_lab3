@@ -1,3 +1,3 @@
-# RAI-Lab3
+# robotics_lab3
 
 Python course
