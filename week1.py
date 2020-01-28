@@ -11,8 +11,15 @@ def alphabet_position(X):
 			ans += str(xInt)+' '
 	return ans.strip()
 
-# print(alphabet_position("The sunset sets at twelve o'clock"))
+# import datetime
+# time = 100000
+# total = 0
+# for index in range(time):
+# 	a = datetime.datetime.now()
+# 	alphabet_position("I ate dinner.")
+# 	b = datetime.datetime.now()
+# 	total += (b-a).microseconds
+# print(total/time)
 
 # a = input("input hear : ")
-
 # print(a)
