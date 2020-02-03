@@ -8,11 +8,21 @@ def validate_pin(x):
 	except:
 		return False
 
+# import re
 # def validate_pin(x):
-	# import re
-	# return bool(re.search('([0-9]{4})|([0-9]{6})',x))
-	# return bool(re.search('^.{0,4}$',x))
-	# return bool(re.search(r'\d+', '5Need47forSpeed 2'))
+# 	return bool(re.match('^(([0-9]{4})([0-9]{2})?)$',x))
+
+# def validate_pin(pin):
+# 	if len(pin) == 6 or len(pin) == 4:
+# 		return pin.isdigit()
+# 	else:
+# 		return False
+
+# import timeit
+# def x():
+# 	validate_pin('100x')
+# print(timeit.timeit(x,number=1000000))
+
 
 # def x():
 # 	validate_pin('AA')
@@ -23,4 +33,4 @@ def validate_pin(x):
 
 # print(TimeTester.run(1000000,x))
 
-# print(validate_pin('100k'))
+# print(validate_pin('1-11'))
