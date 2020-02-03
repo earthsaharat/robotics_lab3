@@ -23,4 +23,4 @@ def validate_pin(x):
 
 # print(TimeTester.run(1000000,x))
 
-# print(validate_pin('1000'))
+# print(validate_pin('100k'))
