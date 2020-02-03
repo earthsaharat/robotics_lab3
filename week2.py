@@ -2,8 +2,8 @@ def validate_pin(x):
 	if len(x) != 4 and len(x) != 6: 
 		return False
 	try:
-		if(x<0): return False
-		int(x)
+		a = int(x)
+		if(a<0): return False
 		return True
 	except:
 		return False
@@ -23,4 +23,4 @@ def validate_pin(x):
 
 # print(TimeTester.run(1000000,x))
 
-# print(validate_pin('-100'))
+print(validate_pin('1000'))
